@@ -86,7 +86,7 @@ class App extends Component {
             <input
               className="input"
               value={mobileNo}
-              onChange={this.onChangeMobileNo}
+              onChange={this.onChangeMobileNo} 
               placeholder="Mobile Number"
             />
             <button type="submit" className="button">
